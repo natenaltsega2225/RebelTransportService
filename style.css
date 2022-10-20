@@ -1,0 +1,62 @@
+.container{
+    border-spacing: 10px;
+
+  font-family: Montserrat, sans-serif;
+ font-size: 18px !important;
+  border: 2px solid grey;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  align-content: center;
+}
+.button {
+padding: 15px 32px;
+align-content: left;
+color: white;
+background-color:black;
+}
+#number {
+overflow: hidden;
+width: 600px;
+}
+input[type=number]{
+width: 250px;
+} 
+
+ .footer{
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #d6d6dc;
+  border: 0;
+  font-size: 12px !important;
+  letter-spacing: 2px;
+  opacity: 5;
+  padding: 10px;
+  border-radius: 0;
+  text-align: center;
+}
+
+
+/* for the nav bar */
+.navvvvvvbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #7adce1;
+  border: 0;
+  font-size: 30px !important;
+  letter-spacing: 4px;
+  text-align: left;
+  padding: 17px;
+  color:black;
+ font-weight: 40000;
+
+
+}
+
+/* .footer .footer-title{
+  width: 20px;
+  color:rgb(55, 148, 202)
+} */
