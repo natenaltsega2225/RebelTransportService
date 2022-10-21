@@ -122,6 +122,38 @@
     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
     border-radius: 100%;
   }
+
+  /* styling for index.php page */
+.container{
+  border-spacing: 10px;
+     font-family: Montserrat, sans-serif;
+     font-size: 18px !important;
+     border: 2px solid grey;
+     margin-top: 50px;
+     margin-bottom: 200px;
+     padding-top: 50px;
+     padding-right: 120px;
+     padding-bottom: 50px;
+     padding-left: 150px;
+     align-content: center;
+
+}
+
+/* styling for the register.php page's table  */
+.table {
+  font-family:Montserrat, sans-serif;
+}
+
+
+
+/* styling for the register_insert.php page's table*/
+ 
+.table{ 
+  
+  font-family: Montserrat, sans-serif;
+  align-items: center}
+
+
   
   @media screen and (min-width: 480px) {
   

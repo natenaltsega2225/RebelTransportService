@@ -1,64 +1,39 @@
-<?php
 
-// header file is included here
-  include 'inc/header.php';
-  // user file is included here
-  include 'lib/user.php';
-
-  $user = new user;  // for the new user
-  session::userSession();
-
-  ?>
-
-  <!-- body area started from here -->
-  <div class="container mt-5">
-    <!--semantic html used that's for  table tag-->  
-  <table class="table table-hover">
-    <thead class="thead-dark">
-      <tr>
-        <th scope="col">User Id</th>
-        <th scope="col">Name</th>
-        <th scope="col">Username</th>
-        <th scope="col">Email</th>
-        <th scope="col">Action</th>
-      </tr>
-
-    </thead>
-    <tbody>
-    <?php
-      $userlist = new user;
-    //  $result = $userlist ->userList();
-
-
-
-
+<?php 
+  include 'homehead.php';
 
 ?>
 
+<html>
+ <head>
+  <link rel='stylesheet' href='index.css'>
+  
+  <br><br>
+  <h1 text-transform: capitalize;><center><b><img src="https://img.icons8.com/clouds/90/000000/add-bookmark.png"/> Welcome To Rebel Medical Transport Customer Portal <img src="https://img.icons8.com/clouds/90/000000/add-bookmark.png"/></center></b></h1>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </tbody>
-
-
-
-
-
-
-  </table>
-
-
+  <div class="container">
+  <td><a href='book.php'><button style="background-color: black ; border-color:black "  ><img src="https://img.icons8.com/nolan/54/train.png"/> I need a Ride  </button></a></td>
+ </tr> 
 
   </div>
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
